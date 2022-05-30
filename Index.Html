@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/JavaScript" src="imc.js"></script>
+    <script src="Aposentadoria.js"></script>
+    <script src="ParOuImpar.js"></script>
+    <script src="ValorMaior.js"></script>
+    <script src="TABUADA.js"></script>
+    <script src="MédiaAritmetica.js"></script>
+    <script src="temperatura.js"></script>
+    <script src="combustivel.js"></script>
+    <title>Exercicios JavaScript</title>
+</head>
+<body>
+    <h1>Botão Imc</h1>
+    <button value="Calcular Imc" onclick="calcularimc();">Calcular Imc</button> 
+<br>
+    <h1>Botão Aposentadoria</h1>
+
+    <button value="Aposentadoria" onclick="Aposentadoria();">Aposentadoria</button> 
+
+    <h1>Botão Par Ou Impar</h1>
+
+    <button value="ParOuImpar" onclick="ParOuImpar();">Par Ou Impar</button>
+
+    <h1>Botão ValorMaior</h1>
+
+    <button value="ValorMaior" onclick="ValorMaior();"> ValorMaior </button>
+
+    <h1>Botão Tabuada</h1>
+
+    <button value="tabuada" onclick="tabuada();"> Tabuada</button>
+
+    
+    <h1>Botão MédiaAritmética</h1>
+
+    <button value="media" onclick="media();">Média Aritmética</button>
+
+    <h1>Botão ConversãoTemperatura</h1>
+    <fieldset>
+      
+    <label for="Centigrados">Centigrados</label>
+    <input type="number" id="Centigrados" onkeyup="ConverterTemperatura();">
+    <br>
+    <label for="Fahrenheit">Fahrenheit</label>
+    <input type="number" id="Fahrenheit">
+    <br>
+    
+    <input type="button" value="Conversão" onclick="ConverterTemperatura();">
+    </fieldset>
+ 
+    <h1>Botão Gasolina</h1>
+    <fieldset>
+      
+    <label for="tempog">Tempo Gasto</label>
+    <input type="number" id="tempog">
+    <br>
+    <label for="velocidade">Velocidade Média</label>
+    <input type="number" id="velocidade" <!--onkeyup="Converter();"--!>>
+    <br>
+    <label for="distancia">Distância Percorrida</label>
+    <input type="number" id="distancia" onkeyup="Converter();">
+    <br>
+    <label for="lusados">Litros Usados</label>
+    <input type="number" id="lusados">
+    <br>
+   </fieldset>
+ 
+
+
+
+</body>
+</html>
